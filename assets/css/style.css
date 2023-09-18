@@ -64,8 +64,16 @@ html,body{
     color: var(--white-color);
     transition: .6s ease;
 }
+.card{
+    overflow: hidden;
+    margin-right: 10px;
+    gap: 10px;
+    border: 1px solid;
+}
 .card .card-img .card-body{
     margin-left: 15px;
+   
+  
 }
 .card img{
     max-width: 75%;
