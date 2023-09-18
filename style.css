@@ -1,0 +1,22 @@
+.bz-light-red{
+    background-color: rgb(255, 0, 128);
+}
+.bz-text-yello{
+    color: yellow;
+}
+.rating-icon{
+   width: 20px;
+}
+.bz-gape{
+    gap: 5px;
+}
+.bz-footer{
+    background-color: cornflowerblue;
+    padding: 50px;
+    font-size: 30px;
+    font-style: italic;
+}
+.bz{
+    color: blueviolet;
+    font-style: oblique;
+}
