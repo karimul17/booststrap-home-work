@@ -38,6 +38,25 @@ html,body{
     color: var(--white-color);
     font-size: var(--size-md);
 }
+/* contact strat */
+.contact-img{
+    background-image: url(../image/contact.jpg);
+    margin-top: 10px;
+    height: 60vh;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+   
+
+}
+.contact{
+    
+    
+    width: 50%;
+}
+/* contact end */
 /*carousel section
 -------------------  */
 .carousel-inner .carousel-item  img{
@@ -123,8 +142,9 @@ hr{
 /* signin start */
 .signin-form{
     /* width: 100%; */
-    height: 100vh;
-    background-image: url('../image/pexels-lukas-628241.jpg');
+    margin-top: 10px;
+    height: 1150px;
+    background-image: url('../image/from.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,9 +187,7 @@ hr{
 /* testimonial end */
 
 /* footer start */
-/* .footer-text{
 
-} */
 .footer-h{
     color: white;
     padding-bottom: 15px;
