@@ -1,45 +1,90 @@
-html,body{
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
     box-sizing: border-box;
 
+
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
-:root{
-    --praimary-color:#4863A0;
-    --secondary-color:#CCCCFF;
-    --white-color:white;
-    --black-color:black;
+
+:root {
+    --praimary-color: #4863A0;
+    --secondary-color: #fc0fc0;
+    --white-color: white;
+    --black-color: black;
     --size-lg: 2.125rem;
     --size-md: 1rem;
     --size-sm: 0.875rem;
 }
+/* ------------ */
+#preloader{
+    width: 100%;
+    height: 100vh;
+   
+    z-index:999999;
+    position: fixed;
+    
+    background-color: lightgrey;
+
+}
+.preloader-item{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
 /* Nave section
 -------------------------- */
-.navbar
-{
-    background-color: var(--praimary-color)!important;
-} 
-.navbar-brand{
+.navbar {
+    background-color: var(--praimary-color) !important;
+
+}
+
+.navbar-brand {
     font-size: var(--size-lg);
     color: var(--white-color);
 }
-.navbar-nav .nav-item .nav-link.active{
-     color: red;
+
+.navbar-nav .nav-item .nav-link.active {
+    color: red;
 }
+
 .navbar-nav .nav-item .nav-link {
-  
+
     color: var(--white-color);
     font-size: var(--size-md);
 }
+
+/* --------- */
+.banner {
+    background-image: url(../image/karim-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.banner-text {
+    color: var(--secondary-color) !important;
+}
+
 /* contact strat */
-.contact-img{
+.contact-img {
     background-image: url(../image/contact.jpg);
     margin-top: 10px;
     height: 60vh;
@@ -47,100 +92,176 @@ html,body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
-   
+
+
 
 }
-.contact{
-    
-    
-  
-}
+
 /* contact end */
 /*carousel section
 -------------------  */
-.carousel-inner .carousel-item  img{
+.carousel-inner .carousel-item img {
     width: 100%;
     height: 70vh;
 }
-.carousel-indicators button{
-    width: 15px!important;
-    height: 15px!important;
-    border-radius: 50%!important;
+
+.carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
 }
-.carousel-indicators button.active{
+
+.carousel-indicators button.active {
     background-color: var(--secondary-color);
 }
+
+.carousel-control-prev-icon {
+   background-color:var(--secondary-color);
+    height: 25px;
+    width: 25px;
+}
+.carousel-control-next-icon {
+   background-color:var(--secondary-color);
+    height: 25px;
+    width: 25px;
+}
+
 /* card section 
 ----------------*/
-.btn-outline:hover{
+.btn-outline:hover {
     background-color: var(--praimary-color);
 }
-.list-group .list-group-item.active{
+
+.list-group .list-group-item.active {
     text-align: center;
     background-color: var(--praimary-color);
     color: var(--white-color);
 }
-.list-group-item:hover{
+
+.list-group-item:hover {
     background-color: var(--secondary-color);
     color: var(--white-color);
     transition: .6s ease;
 }
-.card{
+
+.card {
     overflow: hidden;
     margin-right: 10px;
     gap: 10px;
     border: 1px solid;
 }
-.card .card-img .card-body{
+
+.card .card-img .card-body {
     margin-left: 15px;
-   
-  
+
+
 }
-.card img{
+
+.card img {
     max-width: 75%;
     height: 160px;
 }
-.card-image:hover{
+
+.card-image:hover {
     transform: scale(1.2);
     transition: .6s;
 }
-.card-body a{
+
+.card-body a {
     text-decoration: none;
     color: black;
 }
-.card-text i{
+
+.card-text i {
     color: var(--secondary-color);
 }
-.price-btn{
-    background-color: var(--praimary-color)!important;
+
+.price-btn {
+    background-color: var(--praimary-color) !important;
 }
-.price-btn:hover{
-    background-color:var(--white-color)!important;
+
+.price-btn:hover {
+    background-color: var(--white-color) !important;
     color: darkgrey;
 }
+
+/* ------------------ */
+.shoping-card img {
+    height: 100px;
+    width: 100px;
+
+}
+
+.shoping-card {
+    background-color: #E0E4E0;
+}
+
+.shoping-card .table th {
+    background-color: var(--praimary-color);
+    padding: 20px;
+}
+
+.shoping-card .table tr td {
+    background-color: #E0E4E0;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+
+}
+
+button {
+    background-color: var(--praimary-color);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
 /* pavanagition section 
 ----------------------------*/
- .page-a{
-   
-    background-color: var(--secondary-color)!important;
-    color: var(--praimary-color)!important;
+.page-a {
+
+    background-color: var(--secondary-color) !important;
+    color: var(--praimary-color) !important;
 }
+
+.chake-box {
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+}
+
+.process-checkout {
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+}
+
+.process-btn {
+    background-color: var(--praimary-color);
+    padding: 10px 350px 10px 60px;
+
+}
+
 /* footer section 
 -------------------*/
 
-hr{
-   margin: auto;
-   padding: 5px;
+hr {
+    margin: auto;
+    padding: 5px;
     width: 95%;
     color: rgb(9, 0, 0);
 }
+
 .quotation-icon {
     font-size: 30px;
     margin-top: 50px;
 }
+
 /* signin start */
-.signin-form{
+.signin-form {
     /* width: 100%; */
     margin-top: 10px;
     height: 1150px;
@@ -149,85 +270,171 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.form-body{
+
+.form-body {
     width: 35%;
     border: 1px solid var(--black-color);
-    border-radius:10px ;
+    border-radius: 10px;
     padding: 30px 40px;
     background-color: lightgray;
 }
+
 .form-body a {
     color: lightgray;
     text-decoration: none;
 }
-.form-body button{
+
+.form-body button {
     width: 100%;
-  background-color: var(--praimary-color);
+    background-color: var(--praimary-color);
     border: none;
     color: white;
     padding: 8px 0px;
 }
-.form-body button:hover{
+
+.form-body button:hover {
     background-color: var(--praimary-color);
 }
+
 /* signin end */
 
 /* testimonial start */
-.slick-next::before{
-    color: var(--praimary-color)!important;
+.slick-next::before {
+    color: var(--praimary-color) !important;
     height: 40px;
     width: 40px;
     border-radius: 50%;
 
 }
-.slick-prev::before{
-    color: var(--praimary-color)!important;
+
+.slick-prev::before {
+    color: var(--praimary-color) !important;
 
 }
+
 /* testimonial end */
+
+.row-bg {
+    background-color: var(--praimary-color);
+
+
+
+}
+
+
+.container-1 {
+    background-color: #E0E4E0;
+    ;
+}
+
+.button-2 {
+    background-color: var(--praimary-color) !important;
+    margin-left: 50px;
+
+}
+
+.button-3 {
+    background-color: var(--praimary-color);
+    margin-right: -60px;
+
+}
+
+.apply-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+}
+
+.button-2:hover,
+.button-3:hover {
+    background-color: var(--secondary-color) !important;
+}
 
 /* footer start */
 
-.footer-h{
+.footer-h {
     color: white;
     padding-bottom: 15px;
 }
-.footer{
-    background-color: var(--praimary-color);
-   
+
+.footer {
+    background-color: black;
+
     font-size: var(--size-lg);
     padding: 50px;
-  color: var(--white-color);
- 
+    color: var(--white-color);
+
 }
+
+.footer p {
+    font-size: 20px;
+}
+
 .footer ul {
     list-style-type: none;
     font-size: 20px;
     margin: 0;
     padding: 0;
 }
-.footer ul li{
+
+.footer ul li {
     line-height: 30px;
     color: lightgrey;
-  
-   
+
+
 }
-.footer ul li a{
+
+.footer ul li a {
     text-decoration: none;
     color: lightgrey;
     transition: .6s;
 }
-.footer ul li a:hover{
-    
+
+.footer ul li a:hover {
+
     padding-left: 8px;
 }
-.ex-footer{
-  font-size: 20px;
-  text-align: center;  
+
+.ex-footer {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
-.footer-hr{
+
+.ex-footer p {
+    font-size: 20px;
+}
+
+.footer-hr {
     margin-top: 20px;
     padding: 20px;
     color: lightgrey;
 }
+
+/* ----------------- */
+.subscribe-area {
+    background-color: var(--praimary-color);
+}
+
+.input {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+
+
+}
+
+.footer-btn {
+    padding: 20px 50px;
+    color: white;
+}
+
+span i {
+    margin-right: 10px;
+    font-size: 55px;
+    color: lightgrey;
+    margin-bottom: 20px;
+}
+
 /* footer end */

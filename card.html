@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <script src="https://kit.fontawesome.com/da184442c5.js" crossorigin="anonymous"></script>
+    <!-- slick start -->
+    <link rel="stylesheet" href="./assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/slick/slick.css">
+    <!-- slick end -->
+    <!-- bootstrap start -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- bootstrap end -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+
+<!-- --------- -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="service.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  " aria-current="page" href="signin.html"><i
+                                class="bi bi-box-arrow-in-right m-1"></i>Sign
+                            in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " aria-current="page" href="index.html">Sign out</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+    <!-- carousel start -->
+   <div class="banner">
+     <br>
+    
+    
+    <h3 class="banner-text">Checkout <br><a href="index.html">Home></a>Chek</h3>
+    
+   </div>
+    <!-- carousel end -->
+
+    <!-- card start -->
+  <div class="shoping-card bt-80 pb-40">
+<section class="container">
+    <table class="table table-responsive table-bordered  mt-5" >
+        <thead >
+            <tr >
+                <th>IMAGE</th>
+                <th>PRODUCT NAME</th>
+                <th>UNTIL PRICE</th>
+                <th>SUBTOTAL</th>
+                <th>ACTION</th>
+            
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img class="" src="./assets/image/product/banana.png" alt=""></td>
+                <td>Banana</td>
+                <td>100Tk</td>
+                <td>150</td>
+                <td><button type="button" class="btn btn-danger"><i class="bi bi-trash3-fill"></i></button></td>
+            </tr>
+            <tr>
+                <td><img class="" src="./assets/image/product/carrots.png" alt=""></td>
+                <td>Carrots</td>
+                <td>150Tk</td>
+                <td>200</td>
+                <td><button type="button" class="btn btn-danger"><i class="bi bi-trash3-fill"></i></button></td>
+            </tr>
+            <tr>
+                <td><img class="" src="./assets/image/product/cauliflower.png" alt=""></td>
+                <td>Cauliflower</td>
+                <td>20px</td>
+                <td>250</td>
+                <td><button type="button" class="btn btn-danger"><i class="bi bi-trash3-fill"></i></button></td>
+            </tr>
+            <tr>
+                <td><img class="" src="./assets/image/product/orange.png" alt=""></td>
+                <td>Oreange</td>
+                <td>110Tk</td>
+                <td>150</td>
+                <td><button type="button" class="btn btn-danger"><i class="bi bi-trash3-fill"></i></button></td>
+            </tr>
+        </tbody>
+    </table>
+   <div class="d-flex justify-content-between">
+    <div> <button>CONTINUE SHOPPING</button></div>
+    <div> <BUtton>UPDATE CART</BUtton></div>
+   </div>
+   <!-- view cart start -->
+   <div class="row gap-4">
+    <div class="row col-md-12 col-lg-6">
+        <div class="chake-box">
+            <h5>Use Cupon Code</h5>
+       <hr>
+        <form action="">
+          <div>
+            <label for="cupon-code" class="form-label">Have a Cupon Code?</label>
+            <input type="text" class="form-control w-100 p-3" id="cupon-code" placeholder="Enter here...">          </div>
+          <div>
+            <button class="apply-btn" type="button">APPLY</button>
+          </div>
+        </form>
+    </div>
+</div>
+    <div class="row col-md-12 col-lg-6">
+        <div class="process-checkout">
+        <h5>Order Total</h5>
+        <hr class="w-100">
+        <div class="d-flex justify-content-between">
+            <div>
+                <h6>Sub Total:</h6>
+                <h6>Taxes:</h6>
+                
+            </div>
+            <div>
+                <p>$201.00</p>
+                <p>$201.00</p>
+            </div>
+            
+
+        </div>
+        <hr>
+        <div class="d-flex justify-content-between">
+            <div>
+                <h6>Grand Total:</h6>
+            </div>
+            <div><p>$201.00</p></div>
+        </div>
+        <button class="process-btn" type="button">PROCEED TO CHECKOUT</button>
+    </div>
+    </div>
+   
+   <!-- view cart end -->
+   
+</section>
+</div>
+    <!-- card end -->
+
+    <!-- footer start -->
+    <div class="subscribe-area">
+    <div class="row  mt-5">
+        <div class="col-md-12 col-lg-6">
+            <div class=" d-flex justify-content-center">
+                <span >
+                    <i class="bi bi-envelope-heart-fill "></i>
+                </span>
+                <div>
+                    <h2>
+                        Newsletter
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+            <div>
+                <input class="input footer-btn" type="email" placeholder="Your Email Address">
+                <button class="" type="submit">Subscribe Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- ---------------------- -->
+    <footer class=" footer  pb-5 ">
+        <div class="row container">
+          <div class="col-md-3">
+            <h2 class="footer-h">Address</h2>
+            <ul>
+              <li>
+                <i class="bi bi-house"></i> Dhaka, Bangladesh
+              </li>
+              <li>
+                <i class="bi bi-telephone"></i> +99 0088
+              </li>
+              <div class="d-flex gap-2">
+              <li><i class="bi bi-facebook"></i></li>
+              <li><i class="bi bi-google"></i></li>
+              <li><i class="bi bi-youtube"></i></li>
+              <li><i class="bi bi-apple"></i></li>
+              <li><i class="bi bi-instagram"></i></li>
+            </div>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-h">Browse Link</h2>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Service Us</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-h">Social</h2>
+            <ul>
+              <li><a href="">Facbook</a></li>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">Youtub</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-h ">Service</h2>
+            <ul>
+              <li><a href="">Dowonlod</a></li>
+              <li><a href="">Help</a></li>
+              <li><a href="">Feedback</a></li>
+            </ul>
+          </div>
+          <div class="d-flex mt-5 g-3">
+            <h3>Food & Vegetables:</h3>
+            <p> Carrots  / Cauliflower/  Chives /  Potato /  Cauliflower/   Chives/   Potato /  Cauliflower/  </p>
+          </div>
+          <div class="d-flex g-3">
+            <h3>Food & Vegetables:</h3>
+            <p> Carrots  / Cauliflower/  Chives /  Potato /  Cauliflower/   Chives/   Potato /  Cauliflower/  </p>
+          </div>
+        </div>
+        <hr class="footer-hr">
+        <div class="ex-footer">
+          <div class="d-flex gap-5">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-apple-pay"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+            <i class="fa-brands fa-cc-amazon-pay"></i>
+          </div>
+          <div>
+            <p class="">All Right Reserved BY © <samp>MD:Karimul Islam</samp></p>
+          </div>
+        </div>
+      </footer>
+    <!-- footer end -->
+
+    <script src="https://kit.fontawesome.com/da184442c5.js" crossorigin="anonymous"></script>
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- <script src="./assets/slick/slick.min.js"></script> -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
