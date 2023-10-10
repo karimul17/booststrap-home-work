@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <script src="https://kit.fontawesome.com/da184442c5.js" crossorigin="anonymous"></script>
+  <!-- slick start -->
+  <link rel="stylesheet" href="./assets/slick/slick-theme.css">
+  <link rel="stylesheet" href="./assets/slick/slick.css">
+  <!-- slick end -->
+  <!-- bootstrap start -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- bootstrap end -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="preloader-item">
+      <img src="./assets/image/Spinner-2.gif" alt="">
+    </div>
+  </div>
+
+  <!-- navbar section 
+  ----------------------------------------------------->
+  <div class="header">
+ <div>
+    <a  href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook ">MD:Karimul Islam </i></a>
+    <a href=""><i class="bi bi-envelope-heart-fill"></i>karimulislammd17@gmail.com</a>
+  </div>
+   <div>
+    <a  href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+    <a href="https://www.google.com/"  target="_blank"><i class="bi bi-google"></i></a>
+    <a href=""><i class="bi bi-instagram"></i></a>
+    <a href=""><i class="bi bi-android2"></i></a>
+    <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
+   </div>
+  </div>
+  <!---------------------------------------------------->
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">LOGO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="signin.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <button type="button" class="nav-link position-relative mx-3" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <i class="bi bi-bag"></i>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                9+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="signin.html"><i class="bi bi-box-arrow-in-right m-1"></i>Sign
+              in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Sign out</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  </div>
+  
+  <!-- carousel section
+      -------------------->
+  <section class="container">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/image/karim-1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/image/karim-2.JPG" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/image/karim-3.JPG" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- card section
+      ----------------->
+  <section class="container">
+    <div class="row container">
+      <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline" type="submit">Search</button>
+        </form>
+        <div class="list-group mt-3">
+          <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+            All Category
+          </a>
+          <a href="#" class="list-group-item list-group-item-action"><samp class="hover-efect">Cool Drinks</samp></a>
+          <a href="#" class="list-group-item list-group-item-action">Fresh Fruits</a>
+          <a href="#" class="list-group-item list-group-item-action">Fresh Orange</a>
+          <a href="#" class="list-group-item list-group-item-action">Fresh Vegetables</a>
+
+        </div>
+        <div class="list-group mt-3">
+          <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+            Price
+          </a>
+          <div class="">
+            <a href="#" class="list-group-item list-group-item-action">100Tk -200Tk</a>
+            <a href="#" class="list-group-item list-group-item-action">200Tk -300Tk</a>
+            <a href="#" class="list-group-item list-group-item-action">400Tk -500Tk</a>
+            <a href="#" class="list-group-item list-group-item-action">600Tk -700Tk</a>
+            <a href="#" class="list-group-item list-group-item-action">600Tk -700Tk</a>
+            <a href="#" class="list-group-item list-group-item-action">600Tk -700Tk</a>
+            <a href="#" class="list-group-item list-group-item-action">600Tk -700Tk</a>
+            <a href="#" class="list-group-item list-group-item-action">600Tk -700Tk</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9 col-lg-9 col-sm-12 mt-5 card-center">
+        <div id="service" class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              <img class="card-image" src="./assets/image/product/orange.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Fresh Banana</a>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </p>
+                <p>
+                  <span class="fw-bold">Price: ৳80 kg</span>
+                  <del>৳150kg</del>
+                </p class="">
+                <a href="#" class="btn btn-primary price-btn"><i class="bi bi-cart4"></i>Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              <img class="card-image" src="./assets/image/product/cauliflower.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Fresh Carrots</a>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star-fill"></i>
+                </p>
+                <p>
+                  <span class="fw-bold">Price: ৳120 kg</span>
+                  <del>৳150kg</del>
+                </p class="">
+                <a href="#" class="btn btn-primary price-btn"><i class="bi bi-cart4"></i>Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              <img class="card-image" src="./assets/image/product/carrots.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Fresh Cauliflower</a>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </p>
+                <p>
+                  <span class="fw-bold">Price: ৳110 kg</span>
+                  <del>৳200kg</del>
+                </p class="">
+                <a href="#" class="btn btn-primary price-btn"><i class="bi bi-cart4"></i>Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              <img class="card-image" src="./assets/image/product/banana.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Fresh Orange</a>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </p>
+                <p>
+                  <span class="fw-bold">Price: ৳150 kg</span>
+                  <del>৳250kg</del>
+                </p class="">
+                <a href="#" class="btn btn-primary price-btn"><i class="bi bi-cart4"></i>Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              <img class="card-image" src="./assets/image/product/orange.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Fresh Banana</a>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </p>
+                <p>
+                  <span class="fw-bold">Price: ৳80 kg</span>
+                  <del>৳150kg</del>
+                </p class="">
+                <a href="#" class="btn btn-primary price-btn"><i class="bi bi-cart4"></i>Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              <img class="card-image" src="./assets/image/product/cauliflower.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Fresh Banana</a>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </p>
+                <p>
+                  <span class="fw-bold">Price: ৳80 kg</span>
+                  <del>৳150kg</del>
+                </p class="">
+                <a href="#" class="btn btn-primary price-btn"><i class="bi bi-cart4"></i>Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              <img class="card-image" src="./assets/image/product/carrots.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Fresh Banana</a>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </p>
+                <p>
+                  <span class="fw-bold">Price: ৳80 kg</span>
+                  <del>৳150kg</del>
+                </p class="">
+                <a href="#" class="btn btn-primary price-btn"><i class="bi bi-cart4"></i>Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              <img class="card-image" src="./assets/image/product/banana.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Fresh Banana</a>
+                <p class="card-text">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </p>
+                <p>
+                  <span class="fw-bold">Price: ৳80 kg</span>
+                  <del>৳150kg</del>
+                </p class="">
+                <a href="#" class="btn btn-primary price-btn"><i class="bi bi-cart4"></i>Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pagingation Start 
+          ------------------------------>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link">Previous</a>
+            </li>
+            <li class="page-item "><a class="page-link" href="#">1</a></li>
+            <li class="page-item "><a class="page-link" href="#">2</a></li>
+            <li class="page-item active"><a class="page-link page-a" href="#">3</a></li>
+            <li class="page-item ">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial start -->
+  <div id="blog" class="testiomonial-area pt-5 pb-5 container">
+    <div class="container">
+      <h3 class="text-center">Testimonial</h3>
+      <div class="responsive">
+        <div class="card">
+          <div class="d-flex mt-5 ms-5">
+            <div class="photo">
+              <img src="/assets/image/person 1.png" alt="">
+            </div>
+            <div class="">
+              <h3>Dimaria</h3>
+              <span>Designation</span>
+
+            </div>
+
+          </div>
+
+          <div class="card-text">
+            <hr>
+            <p class="ms-3"><samp class="quotation-icon"><i class="fa-solid fa-quote-left"></i></samp>Lorem ipsum, dolor
+              sit amet consectetur adipisicing elit. Quae blanditiis unde provident animi odit
+              facere corporis repellat explicabo incidunt minima repellendus ipsam assumenda quas reiciendis, corrupti
+              ipsum quaerat non doloremque quos cum ex. Quidem ab omnis tempora obcaecati voluptate quod, illo nostrum
+              dignissimos esse inventore id corrupti in modi explicabo? <samp class="quotation-icon"><i
+                  class="fa-solid fa-quote-right"></i></samp></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="d-flex mt-5 ms-5">
+            <div class="photo">
+              <img src="/assets/image/person 2.png" alt="">
+            </div>
+            <div class="">
+              <h3>Neymar</h3>
+              <span>Designation</span>
+
+            </div>
+
+          </div>
+
+          <div class="card-text">
+            <hr>
+            <p class="ms-3"><samp class="quotation-icon"><i class="fa-solid fa-quote-left"></i></samp>Lorem ipsum, dolor
+              sit amet consectetur adipisicing elit. Quae blanditiis unde provident animi odit
+              facere corporis repellat explicabo incidunt minima repellendus ipsam assumenda quas reiciendis, corrupti
+              ipsum quaerat non doloremque quos cum ex. Quidem ab omnis tempora obcaecati voluptate quod, illo nostrum
+              dignissimos esse inventore id corrupti in modi explicabo? <samp class="quotation-icon"><i
+                  class="fa-solid fa-quote-right"></i></samp></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="d-flex mt-5 ms-5">
+            <div class="photo">
+              <img src="/assets/image/person 3.png" alt="">
+            </div>
+            <div class="">
+              <h3>messi</h3>
+              <span>Designation</span>
+
+            </div>
+
+          </div>
+
+          <div class="card-text">
+            <hr>
+            <p class="ms-3"><samp class="quotation-icon"><i class="fa-solid fa-quote-left"></i></samp>Lorem ipsum, dolor
+              sit amet consectetur adipisicing elit. Quae blanditiis unde provident animi odit
+              facere corporis repellat explicabo incidunt minima repellendus ipsam assumenda quas reiciendis, corrupti
+              ipsum quaerat non doloremque quos cum ex. Quidem ab omnis tempora obcaecati voluptate quod, illo nostrum
+              dignissimos esse inventore id corrupti in modi explicabo? <samp class="quotation-icon"><i
+                  class="fa-solid fa-quote-right"></i></samp></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="d-flex mt-5 ms-5">
+            <div class="photo">
+              <img src="/assets/image/person 1.png" alt="">
+            </div>
+            <div class="">
+              <h3>John Doe</h3>
+              <span>Designation</span>
+
+            </div>
+
+          </div>
+
+          <div class="card-text">
+            <hr>
+            <p class="ms-3"><samp class="quotation-icon"><i class="fa-solid fa-quote-left"></i></samp>Lorem ipsum, dolor
+              sit amet consectetur adipisicing elit. Quae blanditiis unde provident animi odit
+              facere corporis repellat explicabo incidunt minima repellendus ipsam assumenda quas reiciendis, corrupti
+              ipsum quaerat non doloremque quos cum ex. Quidem ab omnis tempora obcaecati voluptate quod, illo nostrum
+              dignissimos esse inventore id corrupti in modi explicabo? <samp class="quotation-icon"><i
+                  class="fa-solid fa-quote-right"></i></samp></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="d-flex mt-5 ms-5">
+            <div class="photo">
+              <img src="/assets/image/person 1.png" alt="">
+            </div>
+            <div class="">
+              <h3>John Doe</h3>
+              <span>Designation</span>
+
+            </div>
+
+          </div>
+
+          <div class="card-text">
+            <hr>
+            <p class="ms-3"><samp class="quotation-icon"><i class="fa-solid fa-quote-left"></i></samp>Lorem ipsum, dolor
+              sit amet consectetur adipisicing elit. Quae blanditiis unde provident animi odit
+              facere corporis repellat explicabo incidunt minima repellendus ipsam assumenda quas reiciendis, corrupti
+              ipsum quaerat non doloremque quos cum ex. Quidem ab omnis tempora obcaecati voluptate quod, illo nostrum
+              dignissimos esse inventore id corrupti in modi explicabo? <samp class="quotation-icon"><i
+                  class="fa-solid fa-quote-right"></i></samp></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- Testimonial end -->
+
+
+  <div item class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Product Cart</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="d-flex gap-4 mb-3">
+        <div>
+          <img src="./assets/image/product/orange.png" width="100" height="100" class="img-fluid border" alt="">
+        </div>
+        <div>
+          <a href="">Orange</a>
+          <p>120 Tk per kg</p>
+        </div>
+      </div>
+      <div class="d-flex gap-4 mb-3">
+        <div>
+          <img src="./assets/image/product/cauliflower.png" width="100" height="100" class="img-fluid border" alt="">
+        </div>
+        <div>
+          <a href="">Cauliflower</a>
+          <p>200 Tk per kg</p>
+        </div>
+      </div>
+      <div class="d-flex gap-4 mb-3">
+        <div>
+          <img src="./assets/image/product/carrots.png" width="100" height="100" class="img-fluid border" alt="">
+        </div>
+        <div>
+          <a href="">Carrots</a>
+          <p>150 Tk per kg</p>
+        </div>
+      </div>
+      <div class="d-flex gap-4 mb-3">
+        <div>
+          <img src="./assets/image/product/banana.png" width="100" height="100" class="img-fluid border" alt="">
+        </div>
+        <div>
+          <a href="">banana</a>
+          <p>100 Tk per kg</p>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex gap-4 ms-5">
+      <div> <button class="btn btn-warning"><a href="card.html">View Cart</a></button>
+      </div>
+      <div>
+        <button class="btn btn-danger">Continue Shoping</button>
+      </div>
+    </div>
+
+  </div>
+  <!-- footer section 
+      ---------------------->
+  <footer class=" footer  pt-5 pb-5 ">
+    <div class="row container">
+      <div class="col-md-3">
+        <h2 class="footer-h">Address</h2>
+        <ul>
+          <li>
+            <i class="bi bi-house"></i> Dhaka, Bangladesh
+          </li>
+          <li>
+            <i class="bi bi-telephone"></i> +99 0088
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h2 class="footer-h">Browse Link</h2>
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Service Us</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h2 class="footer-h">Social</h2>
+        <ul>
+          <li><a href="">Facbook</a></li>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Youtub</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h2 class="footer-h ">Service</h2>
+        <ul>
+          <li><a href="">Dowonlod</a></li>
+          <li><a href="">Help</a></li>
+          <li><a href="">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="footer-hr">
+    <div class="ex-footer">
+      <p class="">All Right Reserved BY © <samp>MD:Karimul Islam</samp></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap.bundle.js"></script>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- <script src="./assets/slick/slick.min.js"></script> -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+   $(window).on('load',
+   function(){
+    $('#preloader').delay(1000).fadeOut(1000)
+   })
+  </script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

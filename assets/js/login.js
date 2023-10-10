@@ -6,7 +6,7 @@ document.getElementById('submit-btn').addEventListener('click',function(){
     const password = passwordField.value;
     // passwordField.value =('')
    if(email == 'karim@.com' && password == 'karim'){
-  window.location.href ='index.html';
+  window.location.href ='home.html';
    }
    else{
     alert('Pleas enter your valid password');
